@@ -34,7 +34,7 @@ h1 {
 
 p {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
 }
 /* Responsive Design */
 @media (max-width: 320px) {
