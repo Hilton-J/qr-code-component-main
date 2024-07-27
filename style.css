@@ -9,6 +9,10 @@ body {
   font-size: 15px;
 }
 
+html {
+  resize: smooth;
+}
+
 .container {
   background: hsl(0, 0%, 100%);
   border-radius: 10px;
@@ -25,15 +29,28 @@ body {
 
 h1 {
   margin: 20px 0;
+  font-weight: 700;
 }
 
+p {
+  font-weight: 400;
+  font-size: 30px;
+}
 /* Responsive Design */
 @media (max-width: 320px) {
-  .container {
-    padding: 10px;
+  body {
+    margin: 0 10px;
   }
 
-  body {
-    font-size: 13px;
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22.5px;
+  }
+
+  p {
+    font-size: 15.5px;
   }
 }
